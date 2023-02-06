@@ -1,0 +1,8 @@
+.clasprc.*
+.bash_history
+.gitconfig
+.cache
+.config
+.npm
+.ssh
+.vscode-server

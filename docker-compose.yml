@@ -1,0 +1,10 @@
+version: '3'
+services:
+  gas-clasp-test:
+    build:
+      context: .
+      dockerfile: ./.devcontainer/Dockerfile
+    tty: true
+    volumes:
+      - "./:/home/node/"
+    working_dir: /home/node
